@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>if else Operadores Condicionais</title>
+	<script type="text/javascript">
+
+		/*var media = 7;
+		var nota = prompt('Digite a nota do aluno');
+		
+		if(nota >= media){
+			document.write('Aprovado');
+		} else {
+			document.write('Reprovado');
+		}*/
+
+		var media = 7
+		var faltas_maximas = 15
+
+		var nota = prompt('Digite a nota do aluno:')
+		var faltas = prompt('Digite as faltas do aluno:')
+
+		//operador ternário
+		var aprovacao = (nota >= media && faltas <= faltas_maximas) ? 'Aprovado' : 'Reprovado'
+
+		document.write(aprovacao)		
+
+		/*if(nota >= media && faltas <= faltas_maximas){
+			document.write('Aprovado')
+		} else {
+			document.write('Reprovado')
+		}*/
+
+
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
